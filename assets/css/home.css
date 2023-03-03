@@ -1,0 +1,326 @@
+/* Home */
+.page-home {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  border-bottom: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  border-radius: 8px;
+  margin-top: 10%;
+  background-color:#eee;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  box-shadow: 6px 6px grey;
+}
+
+.context:hover {
+  color:black;
+}
+
+.onview {
+  display: flex !important;
+}
+
+.texto div{
+  margin-bottom: 35px;
+}
+/* AQUI É A DIV EM QUE ESTA A IMAGEM */
+.img-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: none 20px;
+}
+
+.img-home img {
+  width: 75%;
+  height: auto;
+}
+
+.rodape {
+  width: 100%;
+  height: 23%;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #55a569;
+  background-color:#eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 6px grey;
+}
+
+
+@media (max-width: 1350px) {
+
+div.accordions label {
+  font-size: 22px;
+}
+
+div.accordion-content {
+  font-size: 12px;
+}
+
+div.header{
+  display:none;
+}
+
+div.img-home {
+ display: none;
+}
+
+div.rodape {
+  display:none
+}
+
+div.footer {
+  display:none
+}
+  
+.page-main {
+  width:150%;
+  height: 90%;
+  flex-direction: column;
+  justify-content:space-between;
+  align-self: center;
+  align-items: center;
+}
+
+.form-area {
+  width: 90%;
+  height: 90%;
+}
+}
+
+/* ----------------------media 857 final---------------------------------------- */
+
+/* ----------------------media 857 inicio---------------------------------------- */
+
+@media (max-width: 800px) {
+  
+  .header {
+    display: none;
+    height:100%;
+  }
+
+  div.accordions label {
+    font-size: 20px;
+  }
+  
+  div.accordion-content {
+    padding:2px;
+    font-size: 11.5px;
+  }
+  /* diminui o card */
+
+
+.page-main {
+  flex-direction: column;
+  width:130%;
+  height: 92%;
+  flex-direction: column;
+  justify-content:space-between;
+  align-self: center;
+  align-items: center;
+}
+
+div.front, div.back{
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  justify-items: flex-start;
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  color: black;
+  transition: 600ms;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 2px 15px #222;
+  cursor:pointer;
+}
+
+div.paragrafo {
+  margin-top: 10px;
+  padding: 1.5px;
+  font-size: 16px;
+}
+
+div.back div{
+  font-size: 18px; 
+}
+
+a.btn-cpf {
+  font-family: 'Calibri';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  font-size: 12px;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.nav-itens.active {
+  transform: translatey(-3%);
+}
+
+
+}
+
+
+/* ------------------------------------menor que 768 height --------------------------- */
+
+@media (max-height: 800px) {
+
+div.page-main{
+  height:90%;
+}
+
+div.accordions label {
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+div.accordions {
+  font-size: 15px;
+}
+
+div.header {
+  font-size: 30px;
+  margin-top: 2px;
+  height: 10%;
+}
+
+div.page-home{ 
+  height:100%;
+}
+
+div.page-mei{ 
+  height:100%;
+}
+
+div.page-cd{ 
+  height:100%;
+}
+
+div.page-irpf{ 
+  height:100%;
+}
+
+div.content {
+  height:90%;
+}
+
+div.rodape-cd {
+  height: 14%;
+  margin-bottom: 1%;
+}
+
+div.rodape {
+  height: 14%;
+  margin-bottom: 1%;
+}
+
+div.rodape-mei {
+  height: 14%;
+  margin-bottom: 1%;
+}
+
+div.rodape-irpf {
+  height: 14%;
+  margin-bottom: 1%;
+}
+
+div.dados {
+  padding: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.mensagem {
+  padding: 1.5px;
+  font-size: 12px;
+}
+
+.campo{
+  height: 20px;
+}
+
+div.paragrafo {
+
+  width: 95%;
+  padding-top: 12px;
+}
+
+h1{
+  font-size: 16px;
+  margin: 10px;
+}
+
+.button {
+  width: 50%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.whatsapp-button {
+  width: 60px;
+  height: 60px;
+  margin-top: -5px;
+}
+
+.face1{
+  margin: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  perspective: 5000px;
+}
+
+div.front, div.back{
+  width: 90%;
+  height: 90%;
+}
+
+div.vlr-cpf {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+div.front a{
+  font-size: 20px;
+}
+
+div.txt {
+  text-decoration: none;
+  font-size: 2px;
+}
+
+div.back div{
+  font-size: 20px; 
+}
+
+a.btn-cpf {
+  font-family: 'Calibri';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  font-size: 15px;
+  height: 20%;
+  margin-top: 35px;
+}
+}
+/* ------------------------------------menor que 768 height --------------------------- */

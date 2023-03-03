@@ -1,0 +1,72 @@
+/* IRPF */
+
+.page-irpf {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.content-irpf {
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-radius: 8px;
+    margin-top: 10%;
+    background-color:#eee;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 6px 6px grey;
+  }
+
+.onview {
+    display: flex !important;
+}
+    
+.texto-irpf div{
+    margin-bottom: 35px;
+}
+
+    /* AQUI É A DIV EM QUE ESTA A IMAGEM */
+
+.img-irpf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: none 20px;
+}
+    
+.img-irpf img {
+    width: 75%;
+    height: auto;
+}
+    
+.rodape-irpf {
+    width: 100%;
+    height: 23%;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #55a569;
+    background-color:#eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px grey;
+}
+
+@media (max-width: 1350px) {
+
+div.img-irpf {
+    display: none;
+}
+
+div.rodape-irpf {
+    display:none
+  }
+
+
+
+
+}
